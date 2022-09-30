@@ -1,6 +1,8 @@
-# rsync on ESXI
+# rsync on ESXi
 
 rsync is a utility for efficiently transferring and synchronizing files between a computer and a storage drive and across networked computers by comparing the modification times and sizes of files.
+
+This binary is focused towards the use on ESXi Hosts, follow the steps below.
 
 # Install
 
