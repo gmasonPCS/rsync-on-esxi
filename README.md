@@ -23,7 +23,7 @@ This binary is focused towards the use on ESXi Hosts, follow the steps below.
     esxcli network firewall ruleset list
     ```
 
-- You may need to change file permissions on the rsync binary in-order to run the file, use the following command to allow users to execute the file
+- You may need to change file permissions on the rsync binary in-order to run the program, use the following command to allow users to execute the file
     ```sh
     chmod 755 /bin/rsync-static
     ```
