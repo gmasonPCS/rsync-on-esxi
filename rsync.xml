@@ -1,0 +1,19 @@
+ <ConfigRoot>
+	<service>
+		<id>rsync</id>
+		<rule id="0000">
+			<direction>outbound</direction>
+			<protocol>tcp</protocol>
+			<porttype>dst</porttype>
+			<port>873</port>
+		</rule>
+		<rule id="0001">
+			<direction>outbound</direction>
+			<protocol>udp</protocol>
+			<porttype>dst</porttype>
+			<port>873</port>
+		</rule>
+		<enabled>true</enabled>
+		<required>false</required>
+	</service>
+</ConfigRoot>
